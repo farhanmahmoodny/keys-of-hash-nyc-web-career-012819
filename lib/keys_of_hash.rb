@@ -10,7 +10,7 @@ animal.each do |place, species|
     a = [] 
     a.push(place)
   end
-  return a
 end
+return a
   end
 end
