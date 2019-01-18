@@ -5,12 +5,12 @@ class Hash
         "aye-aye" => "Madagascar",
         "tomato frog" => "Madagascar"
       }
+      a = [] 
 animal.each do |place, species|
   if species == arguments
-    a = [] 
     a.push(place)
   end
-  a
 end
+a
   end
 end
