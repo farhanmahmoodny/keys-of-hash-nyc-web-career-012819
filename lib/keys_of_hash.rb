@@ -3,7 +3,10 @@ class Hash
       animal = {
         "red-footed tortoise" => "Panama",
         "aye-aye" => "Madagascar",
-        "tomato frog" => "Madagascar"
+        "tomato frog" => "Madagascar",
+        "sugar glider" => "Australia",
+        "kangaroo" => "Australia",
+        "koala" => "Australia"
       }
       a = [] 
 animal.each do |place, species|
